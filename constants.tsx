@@ -39,11 +39,6 @@ export const BRAND_ASSETS = {
         "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
 };
 
-export const CONTACT_CONFIG = {
-    formspreeId: "xojykyqo", // Get a free ID at formspree.io to receive emails.
-    whatsappNumber: "+97714567890",
-};
-
 /**
  * ============================================================================
  * SECTION 1: NAVIGATION

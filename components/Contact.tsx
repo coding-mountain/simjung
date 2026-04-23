@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Mail, Phone, MapPin, Send, CheckCircle2 } from "lucide-react";
-import { CONTACT_DETAILS, CONTACT_CONFIG } from "../constants";
+import { CONTACT_DETAILS } from "../constants";
 
 const Contact: React.FC = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
         try {
             // Connect to Formspree
             const response = await fetch(
-                `https://formspree.io/f/${CONTACT_CONFIG.formspreeId}`,
+                `https://formspree.io/f/${import.meta.env.VITE_FORMSPREE_ID}`,
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
