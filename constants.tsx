@@ -25,6 +25,11 @@ import chapterOne from "./assets/chapter1.png";
 import chapterTwo from "./assets/chapter2.png";
 import chapterThree from "./assets/chapter3.png";
 import karvikaPhoto from "./assets/karvika.jpg";
+import osirixLogo from "./assets/osirix.png";
+import shopperAILogo from "./assets/shopperAi.png";
+import blueDotLogo from "./assets/bluedot.png";
+import wiseLogo from "./assets/wise.png";
+import elsightLogo from "./assets/elsight.png";
 
 /**
  * ============================================================================
@@ -372,12 +377,13 @@ export const PARTNERS: Partner[] = [
 ];
 
 export const CLIENT_LOGOS = [
-    "https://cdn.worldvectorlogo.com/logos/google-2.svg",
     kavadevLogo,
     verktekLogo,
-    "https://cdn.worldvectorlogo.com/logos/tesla-9.svg",
-    "https://cdn.worldvectorlogo.com/logos/adobe-2.svg",
-    "https://cdn.worldvectorlogo.com/logos/shopify.svg",
+    osirixLogo,
+    shopperAILogo,
+    blueDotLogo,
+    wiseLogo,
+    elsightLogo,
 ];
 
 /**
